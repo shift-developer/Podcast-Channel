@@ -4,3 +4,14 @@
     padding: 0;
     border: 0;
 }
+h1 {
+    font-family: "ibm plex mono", sans-serif;
+}
+
+b {
+    font-family: "ibm plex mono", sans-serif
+}
+
+div {
+    font-family: "ibm plex mono", sans-serif
+}
