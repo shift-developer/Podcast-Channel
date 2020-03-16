@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,31 +10,40 @@
 </head>
 <body>
     <nav>
-        <div class="nav-container">
-        <div class="logo">
-            <img class="logo-imagen" src="images/logo.svg" alt="Logo">
-        </div>
-
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu">
-        <div class="menu-icon-container">
-            <div class="menu-icon-line"></div>
-            <div class="menu-icon-line"></div>
-            <div class="menu-icon-line last"></div>
-        </div>
-        </label>
-
-
-        <div class="menu-container">
-            <ul>
-                <li><a href="">EPISODIOS</a></li>
-                <li><a href="">NOSOTROS</a></li>
-                <li><a href="">ENTREVISTAS</a></li>
-                <li><a href="">TÓPICOS</a></li>
-            </ul>
-        </div>
-        </div>
-    </nav>
         
+        <div class="nav-container">
+            <div class="logo">
+                <img class="logo-imagen" src="images/logo.svg" alt="Logo">
+            </div>
+
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu" class="show-icon-menu">
+                <div class="menu-icon-container">
+                <div class="menu-icon-line"></div>
+                <div class="menu-icon-line"></div>
+                <div class="menu-icon-line last"></div>
+            </div>
+            </label>
+
+            <label for="btn-menu" class="hide-icon-menu">
+                <div class="close-icon-container">
+                    <div class="close-icon"></div>
+                </div>
+            </label>
+            <div class="menu-container">
+                <ul>
+                    <li><a href="">EPISODIOS</a></li>
+                    <li><a href="">NOSOTROS</a></li>
+                    <li><a href="">ENTREVISTAS</a></li>
+                    <li><a href="">TÓPICOS</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        
+        
+    </nav>
+    
 </body>
 </html>
