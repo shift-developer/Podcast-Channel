@@ -42,24 +42,11 @@ nav {
 }
 
 /*Icono menu*/
-.menu-icon-container {
-    display: block;
-    box-sizing: border-box;
-    width: 18px;
-    height: 12px;
-}
 
 .show-icon-menu {
     display: block;
     width: 18px;
     height: 12px;
-}
-
-.menu-icon-line {
-    width: 18px;
-    height: 2px;
-    background-color: #000000;
-    margin-bottom: 3px;
 }
 
 /* Close Icon Menu*/
@@ -79,22 +66,6 @@ nav {
     display: block;
     height: 14px;
     width: 14px;
-}
-
-.close-icon:before, .close-icon:after {
-    position: absolute;
-    content: ' ';
-    height: 14px;
-    width: 1.9px;
-    background-color: #060A24;
-}
-
-.close-icon:before {
-    transform: rotate(45deg);
-}
-
-.close-icon:after {
-    transform: rotate(-45deg);
 }
 
 #btn-menu:checked ~ .hide-icon-menu{
@@ -268,6 +239,12 @@ header {
     margin-bottom: 11px;
     width: 100%;
     max-width: 584px;
+}
+
+.podcast-item iframe {
+    width: 100%;
+    border: 0;
+    height: 232px;
 }
 /* Fin de SECTION EPISODIOS */
 
@@ -629,7 +606,8 @@ footer i {
     }
 
     .podcast-item {
-        width: 414px;
+        width: 46%;
+        height: 165x;
         margin-bottom: 51.2px;
         display: inline-block;
     }
@@ -712,11 +690,25 @@ footer i {
 
     .ultimas-novedades h3 {
         font-size: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
     }
 
     .escucha-episodios-button {
-        font-size: 17px;
+        width: 245px;
+        margin-left: 38%;
     }
+
+    .escucha-episodios-button a {
+        font-size: 13px;
+        display: block;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        line-height: 22px;
+    }
+
+    
 
     footer {
         display: flex;
@@ -725,7 +717,8 @@ footer i {
     }
 }
 
-@media screen and (min-width: 1200px) {
+/* Large desktop */
+@media screen and (min-width: 1400px) {
     nav {
         height: 80px;
     }
@@ -863,9 +856,14 @@ footer i {
     }
 
     .escucha-episodios-button {
+        width: 24%;
+    }
+
+    .escucha-episodios-button a {
         font-size: 18px;
         line-height: 24px;
-        width: 24%;
+        padding-bottom: 16px;
+        padding-top: 16px;
     }
 
     footer {
