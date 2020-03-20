@@ -23,19 +23,19 @@ nav {
 .nav-container {
     box-sizing: border-box;
     width: 100%;
-    height: 44px;
+    height: 2.75rem;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 16px;
-    padding-right: 19px;
+    padding-left: 1rem;
+    padding-right: 1.1875rem;
 
 }
 
 .logo {
     width: 7.5%;
-    height: 24px;
+    height: 1.5rem;
 }
 
 #btn-menu {
@@ -46,15 +46,15 @@ nav {
 
 .show-icon-menu {
     display: block;
-    width: 18px;
-    height: 12px;
+    width: 1.125rem;
+    height: 0.75rem;
 }
 
 /* Close Icon Menu*/
 .hide-icon-menu {
     display: none;
-    width: 14px;
-    height: 14px;
+    width: 0.875rem;
+    height: 0.875rem;
 }
 
 .close-icon-container {
@@ -65,8 +65,8 @@ nav {
 
 .close-icon {
     display: block;
-    height: 14px;
-    width: 14px;
+    height: 0.875rem;
+    width: 0.875rem;
 }
 
 #btn-menu:checked ~ .hide-icon-menu{
@@ -84,14 +84,14 @@ nav {
     position: absolute;
     box-sizing: border-box;
     width: 100%;
-    top: 44px;
+    top: 2.75rem;
     background-color: #0000EC;
-    padding-top: 16px;
-    padding-left: 16px;
-    margin-left: -16px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin-left: -1rem;
 }
 .menu-icon-line.last {
-    margin: 0px;
+    margin: 0;
 }
 
 .menu-container ul {
@@ -106,12 +106,12 @@ nav {
     font-family: 'IBM Plex mono', monospace;
     display: block;
     text-decoration: none;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     color: #FFFFFF ;
     cursor: pointer;
 }
 .menu-container ul:last-child {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #btn-menu:checked ~ .menu-container{
@@ -124,8 +124,8 @@ nav {
 header {
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 29px;
-    padding-bottom: 24px;
+    padding-top: 1.8125rem;
+    padding-bottom: 1.5rem;
 }
 
 .titulos {
@@ -135,8 +135,8 @@ header {
 }
 
 .titulos h1 {
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -154,16 +154,16 @@ header {
 }
 
 .description {
-    padding-top: 16px;
-    padding-bottom: 36px;
+    padding-top: 1rem;
+    padding-bottom: 2.25rem;
     width: 100%;
 }
 
 .description h2 {
     font-weight: normal;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
     margin: 0;
     padding: 0;
     color: #060A24 ;
@@ -181,16 +181,16 @@ header {
 
 .link-button {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
+    font-size: 1rem;
     display: block;
     width: 100%;
     box-sizing: border-box;
     background-color: #00F3BB;
-    padding-bottom: 13px;
-    padding-top: 13px;
-    padding-left: 96px;
-    padding-right: 96px;
-    line-height: 22px;
+    padding-bottom: 0.8125rem;
+    padding-top: 0.8125rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    line-height: 1.375rem;
     text-decoration: none;
     text-align: center;
     color: #060A24;
@@ -211,19 +211,19 @@ header {
     clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%); 
     width: 100%;
-    padding-bottom: 143.5px;
+    padding-bottom: 8.96875rem;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
 }
 
 .episodios h3 {
-    margin-top: 64px;
-    margin-bottom: 21px;
+    margin-top: 4rem;
+    margin-bottom: 1.3125rem;
     margin-left: 5%;
     font-family: 'IBM Plex Sans',sans-serif;
     color: #FFFFFF ;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: normal;
 }
 
@@ -236,15 +236,15 @@ header {
 }
 
 .podcast-item {
-    margin-bottom: 11px;
+    margin-bottom: 0.6875rem;
     width: 100%;
-    max-width: 584px;
+    max-width: 36.5rem;
 }
 
 .podcast-item iframe {
     width: 100%;
     border: 0;
-    height: 232px;
+    height: 14.5rem;
 }
 /* Fin de SECTION EPISODIOS */
 
@@ -259,9 +259,9 @@ header {
     width: 100%;
     margin-right: 0;
     margin-left: 0;
-    max-width: 457px;
-    bottom: 110px;
-    margin-bottom: -110px;
+    max-width: 28.5625rem;
+    bottom: 6.875rem;
+    margin-bottom: -6.875rem;
     position: relative;
     justify-self: center;
 
@@ -269,26 +269,26 @@ header {
 
 .section-title {
     color: #060A24;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
     font-family: 'IBM Plex Sans',sans-serif;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     font-weight: normal;
 }
 
 .nosotros h3 {
-    margin-top: 27px;
+    margin-top: 1.6875rem;
 }
 
 .nosotros p {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
     color: #060A24;
     font-weight: normal;
-    margin-top: 8px;
+    margin-top: 0.5rem;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -301,9 +301,9 @@ header {
 }
 
 .entrevistas h3 {
-    margin-bottom: 14px;
+    margin-bottom: 1.14286rem;
     margin-top: 0;
-    padding-top: 54px;
+    padding-top: 3.375rem;
 }
 
 .imagenes-entrevistas {
@@ -325,18 +325,18 @@ header {
 }
 
 .topicos h3 {
-    padding-top: 48px;
-    margin-bottom: 37px;
+    padding-top: 3rem;
+    margin-bottom: 2.3125rem;
     margin-top: 0;
 }
 
 .temas-container h4 {
     font-family: 'IBM Plex Sans',sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bolder;
-    line-height: 32px;
+    line-height: 2rem;
     margin: 0;
-    margin-top: 13px;
+    margin-top: 0.8125rem;
     text-align: center;
 
 }
@@ -355,7 +355,7 @@ header {
     width: 100%;
     flex-direction: column;
     justify-items: center;
-    margin-bottom: 49px;
+    margin-bottom: 3.0625rem;
 }
 
 .imagen-topico img {
@@ -373,20 +373,20 @@ header {
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%); 
     width: 100%;
     box-sizing: border-box; 
-    padding-top: 64px;
-    padding-bottom: 67px;
+    padding-top: 4rem;
+    padding-bottom: 4.1875rem;
     padding-left: 5%;
     padding-right: 5%;
 }
 
 .section-title-white {
     font-family: 'IBM Plex Sans',sans-serif;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
     text-align: center;
     color: #FFFFFF;
     margin: 0;
-    margin-bottom: 36px;
+    margin-bottom: 2.25rem;
     font-weight: normal;
 }
 
@@ -398,14 +398,14 @@ header {
 
 .escucha-episodios-button a {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
+    font-size: 1rem;
     display: block;
     width: 100%;
     box-sizing: border-box;
     background-color: #00F3BB;
-    padding-bottom: 13px;
-    padding-top: 13px;
-    line-height: 22px;
+    padding-bottom: 0.8125rem;
+    padding-top: 0.8125rem;
+    line-height: 1.375rem;
     text-decoration: none;
     text-align: center;
     color: #060A24;
@@ -425,8 +425,8 @@ header {
 footer {
     width: 100%;
     box-sizing: border-box;
-    padding-top: 24px;
-    padding-bottom: 31px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.9375rem;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -437,15 +437,15 @@ footer p {
     margin: 0;
     color: #060A24;
     font-family: 'IBM Plex Mono',monospace;
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 16px;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .rrss-container {
     display: flex;
-    width: 227px;
+    width: 14.1875rem;
     flex-direction: row-reverse;
     justify-content: space-between;
     justify-self: center;
@@ -454,12 +454,12 @@ footer p {
 
 footer a {
     display: inline-block;
-    width: 16px;
+    width: 1rem;
     color: #060A24;
 }
 
 footer i {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /* Fin FOOTER */
@@ -471,20 +471,20 @@ footer i {
 @media screen and (min-width: 860px) {
     /* NAV BAR */
     nav {
-        height: 57px;
+        height: 3.5625rem;
         display: flex;
         justify-content: space-between;
     }
 
     .nav-container {
-        height: 57px;
+        height: 3.5625rem;
         padding-left: 6.9%;
         padding-right: 6.9%;
     }
 
     .logo {
-        width: 25.6px;
-        height: 25.6px;
+        width: 1.6rem;
+        height: 1.6rem;
     }
 
     .logo-imagen {
@@ -512,9 +512,9 @@ footer i {
 
     .menu-container ul a {
         color: #060A24;
-        margin-left: 40px;
+        margin-left: 2.5rem;
         margin-bottom: 0;
-        font-size: 11.5px;
+        font-size: 0.71875rem;
     }
 
     .menu-container ul a:hover {
@@ -529,13 +529,13 @@ footer i {
 
     header {
         padding-left: 13.9%;
-        padding-top: 100px;
-        padding-bottom: 5px;
+        padding-top: 6.25rem;
+        padding-bottom: 0.3125rem;
     }
 
     .titulos h1 {
-        font-size: 45.5px;
-        line-height: 59.73px;
+        font-size: 2.84375rem;
+        line-height: 3.733125rem;
     }
 
     .titulos br{
@@ -543,7 +543,7 @@ footer i {
     }
 
     .pale {
-        margin-left: 14px;
+        margin-left: 0.875rem;
     }
 
     .bluedot {
@@ -563,7 +563,7 @@ footer i {
     }
 
     .description h2 {
-        font-size: 12px;
+        font-size: 0.75rem;
         width: 50%;
     }
 
@@ -572,31 +572,31 @@ footer i {
     }
 
     .conoce-mas-button {
-        width: 160px;
+        width: 10rem;
     }
 
     .conoce-mas-button a {
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 0.75rem;
+        line-height: 1rem;
         width: 100%;
         box-sizing: border-box;
         background-color: #00F3BB;
-        padding-bottom: 11px;
-        padding-top: 11px;
+        padding-bottom: 0.6875rem;
+        padding-top: 0.6875rem;
         padding-left: 4.1%;
         padding-right: 4.1%;
     }
 
     .episodios {
         clip-path: polygon(0 13%, 100% 0%, 100% 87%, 0 100%);
-        padding-bottom: 115px;
+        padding-bottom: 7.1875rem;
     }
 
     .episodios h3 {
-        margin-top: 135px;
-        margin-bottom: 21px;
+        margin-top: 8.4375rem;
+        margin-bottom: 1.3125rem;
         margin-left: 13.9%;
-        font-size: 36px;
+        font-size: 2.25rem;
     }
 
     .spotify-podcast-container {
@@ -606,8 +606,8 @@ footer i {
     }
 
     .podcast-item {
-        width: 413px;
-        margin-bottom: 51.2px;
+        width: 25.8125rem;
+        margin-bottom: 3.2rem;
         display: inline-block;
     }
 
@@ -622,32 +622,32 @@ footer i {
     }
 
     .container-nosotros-text {
-        width: 330px;
-        margin-left: 44.2px;
+        width: 20.625rem;
+        margin-left: 2.7625rem;
         
     }
 
     .container-nosotros-text h3 {
-        margin-bottom: 17px;
+        margin-bottom: 1.0625rem;
         margin-top: 0;
         margin-left: 0;
-        padding-top: 60px;
+        padding-top: 3.75rem;
     }
 
     .container-nosotros-text p {
-        font-size: 12px;
+        font-size: 0.75rem;
         margin-right: 0;
         margin-left: 0;
     }
 
     .entrevistas h3 {
-        margin-top: 45.3px;
-        margin-bottom: 25.5px;
+        margin-top: 2.83125rem;
+        margin-bottom: 1.59375rem;
         margin-left: 13.9%;
     }
 
     .section-title {
-        font-size: 34px;
+        font-size: 2.125rem;
     }
 
     .imagenes-entrevistas {
@@ -662,7 +662,7 @@ footer i {
 
     .topicos h3 {
         margin-top: 45.33px;
-        margin-bottom: 39.66px;
+        margin-bottom: 2.8331rem;
         margin-left: 13.9%;
     }
 
@@ -673,42 +673,42 @@ footer i {
     }
 
     .tema-item {
-        width: 185px;
+        width: 11.5625rem;
     }
 
     .tema-item h4 {
-        font-size: 17px;
+        font-size: 1.0625rem;
     }
 
     .tema-item img {
-        width: 74px;
+        width: 4.625rem;
         align-self: center;
     }
 
     .ultimas-novedades {
         clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0 100%);
-        padding-top: 150.8px;
-        padding-bottom: 107px;
+        padding-top: 9.425rem;
+        padding-bottom: 6.6875rem;
     }
 
     .ultimas-novedades h3 {
-        font-size: 34px;
+        font-size: 2.125rem;
         display: flex;
         flex-direction: column;
         justify-items: center;
     }
 
     .escucha-episodios-button {
-        width: 245px;
+        width: 15.3125rem;
         margin-left: 38%;
     }
 
     .escucha-episodios-button a {
-        font-size: 13px;
+        font-size: 0.8125rem;
         display: block;
-        padding-bottom: 13px;
-        padding-top: 13px;
-        line-height: 22px;
+        padding-bottom: 0.8125rem;
+        padding-top: 0.8125rem;
+        line-height: 1.375rem;
     }
 
     
@@ -723,16 +723,16 @@ footer i {
 /* Large desktop */
 @media screen and (min-width: 1400px) {
     nav {
-        height: 80px;
+        height: 5rem;
     }
 
     .nav-container {
-        height: 80px;
+        height: 5rem;
     }
 
     .logo {
-        width: 36px;
-        height: 36px;
+        width: 2.25rem;
+        height: 2.25rem;
     }
 
     .show-icon-menu {
@@ -740,40 +740,40 @@ footer i {
     }
 
     .menu-container ul a {
-        margin-left: 48px;
-        font-size: 16px;
-        line-height: 28px;
+        margin-left: 3rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
     }
 
     header {
-        padding-top: 120px;
-        padding-bottom: 5px;
+        padding-top: 7.5rem;
+        padding-bottom: 0.3125rem;
     }
 
     .titulos h1 {
-        font-size: 64px;
-        line-height: 84px;
+        font-size: 4rem;
+        line-height: 5.25rem;
     }
 
     .pale {
-        margin-left: 17px;
+        margin-left: 1.0625rem;
     }
 
     .description h2 {
-        font-size: 16px;
-        line-height: 24px;
-        width: 628px;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: 39.25rem;
     }
 
     .conoce-mas-button {
-        width: 226px;
+        width: 14.125rem;
     }
 
     .conoce-mas-button a {
-        font-size: 18px;
-        line-height: 24px;
-        padding-bottom: 16px;
-        padding-top: 16px;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 
 
@@ -783,24 +783,24 @@ footer i {
     }
 
     .phone {
-        bottom: 200px;
+        bottom: 12.5rem;
     }
 
     .nosotros {
-        padding-top: 50px;
+        padding-top: 3.125rem;
     }
 
     .container-nosotros-text {
-        width: 464px;
+        width: 29rem;
     }
 
     .episodios h3 {
-        padding-top: 186px;
+        padding-top: 11.625rem;
         margin-top: 0;
-        margin-bottom: 26px;
+        margin-bottom: 1.625rem;
         margin-left: 13.9%;
-        font-size: 48px;
-        line-height: 62px;
+        font-size: 3rem;
+        line-height: 3.875rem;
     }
 
     .spotify-podcast-container {
@@ -808,62 +808,62 @@ footer i {
     }
 
     .podcast-item {
-        width: 584px;
-        height: 232px;
-        margin-bottom: 72px;
+        width: 36.5rem;
+        height: 14.5rem;
+        margin-bottom: 4.5rem;
     }
 
     .container-nosotros-text {
-        margin-left: 62.4px;
+        margin-left: 3.9rem;
     }
 
     .container-nosotros-text h3 {
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem;
     }
 
     .container-nosotros-text p {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     .entrevistas h3 {
-        margin-top: 45.3px;
-        margin-bottom: 25.5px;
+        margin-top: 2.83125rem;
+        margin-bottom: 1.59375rem;
         margin-left: 13.9%;
     }
 
     .section-title {
-        font-size: 48px;
-        line-height: 62px;
+        font-size: 3rem;
+        line-height: 3.875rem;
     }
 
     .topicos h3 {
-        margin-top: 64px;
-        margin-bottom: 69px;
+        margin-top: 4rem;
+        margin-bottom: 4.3125rem;
         margin-left: 13.9%;
     }
 
     .tema-item {
-        width: 260px;
+        width: 16.25rem;
     }
 
     .tema-item h4 {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
     .tema-item img {
-        width: 104px;
+        width: 6.5rem;
     }
 
     .ultimas-novedades {
         clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0 100%);
-        padding-bottom: 107px;
+        padding-bottom: 6.6875rem;
     }
 
     .ultimas-novedades h3 {
-        font-size: 48px;
-        line-height: 62px;
+        font-size: 3rem;
+        line-height: 3.875rem;
     }
 
     .escucha-episodios-button {
@@ -871,10 +871,10 @@ footer i {
     }
 
     .escucha-episodios-button a {
-        font-size: 18px;
-        line-height: 24px;
-        padding-bottom: 16px;
-        padding-top: 16px;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 
     footer {
